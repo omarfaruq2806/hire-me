@@ -24,6 +24,7 @@ const RegisterPage = () => {
       image: photoUrl,
       email: email,
       password: password,
+      autoSignIn: false,
     });
     if (data) {
       console.log(data);
